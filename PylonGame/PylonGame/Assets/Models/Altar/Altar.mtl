@@ -1,0 +1,61 @@
+# Blender MTL File: 'Altar.blend'
+# Material Count: 5
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Draven Lewis\Desktop\goal_text.jpg
+
+newmtl Material.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.705263
+illum 3
+map_Kd C:\Users\Draven Lewis\Desktop\gem_white.png
+map_Ke C:\\Users\\Draven Lewis\\Desktop\\gem.jpg
+
+newmtl Material.003_gem_white.png.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.705263
+illum 3
+map_Kd C:\Users\Draven Lewis\Desktop\gem_white.png
+map_Ke C:\\Users\\Draven Lewis\\Desktop\\gem.jpg
+
+newmtl Material.004
+Ns 96.078431
+Ka 1.000000 0.978686 0.916345
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.673684
+illum 3
+map_Kd C:\Users\Draven Lewis\Desktop\gem_white.png
+map_Ke C:\\Users\\Draven Lewis\\Desktop\\gem.jpg
+
+newmtl Material.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.773684
+illum 3
+map_Kd C:\Users\Draven Lewis\Desktop\gem_white.png
+map_Ke C:\\Users\\Draven Lewis\\Desktop\\gem.jpg

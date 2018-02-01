@@ -1,8 +1,9 @@
 # GIT IGNORE, DO NOT EDIT WITHOUT DRAVENS PERMISSION UNLESS YOU 
 # WANT THE PROJECT TO BE A MILLION GIGS BIG
 # dirs
-PylonGame/Temp/
-PylonGame/Library/ShaderCache/
+PylonGame/PylonGame/Temp/
+PylonGame/PylonGame/Library/ShaderCache/
+PylonGame/PylonGame/Library/MetaData/
 PylonGame/Library/MetaData/
 #files
 *.cache
