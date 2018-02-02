@@ -5,9 +5,11 @@ PylonGame/PylonGame/Temp/
 PylonGame/PylonGame/Library/ShaderCache/
 PylonGame/PylonGame/Library/MetaData/
 PylonGame/Library/MetaData/
+PylonGame/Temp/
 #files
 *.cache
 *.tmp
 *.temp
+*.lock
 *.log
 *.info

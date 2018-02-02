@@ -9,10 +9,12 @@ public class HoldItem : MonoBehaviour {
     public bool active = false;
     public ParticleSystem part = null;
 
-
     //################################################
-    public float distace = 1.5f;
-    public float rightDistance = 1;
+    public float depthOffset = 0;
+    public float scrollOffset = 0;
+    public float heightOffset = 0;
+    
+
     public float forwardRotation = 0;
     public float maxSwing = 20;
     public float swingSpeed = 1;
@@ -77,8 +79,12 @@ public class HoldItem : MonoBehaviour {
             }
 
             // set the location... Infront of the camera (if this works then we should see the sword)
-            this.internalObject.transform.position = this.gameCamera.transform.position + (this.gameCamera.transform.forward * distace) + (this.gameCamera.transform.right * (this.rightDistance));
-            this.internalObject.transform.eulerAngles = new Vector3(this.gameCamera.transform.eulerAngles.x + this.forwardRotation + this.swingIndex, this.gameCamera.transform.eulerAngles.y + this.swingIndex, this.swingIndex + (Random.Range(-10,10) * (this.swinging ? 1 : 0)));
+            this.internalObject.transform.position = this.gameCamera.transform.position +
+                (this.gameCamera.transform.forward * this.depthOffset) +  // local Z
+                (this.gameCamera.transform.right * this.scrollOffset) + // local X
+                (this.gameCamera.transform.up * this.heightOffset); // local Y
+
+            this.internalObject.transform.eulerAngles = new Vector3(this.gameCamera.transform.eulerAngles.x + this.forwardRotation + this.swingIndex, this.gameCamera.transform.eulerAngles.y + this.swingIndex,this.holdObject.transform.eulerAngles.z + this.swingIndex + (Random.Range(-10,10) * (this.swinging ? 1 : 0)));
         }
 	}
 
