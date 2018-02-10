@@ -5,7 +5,7 @@ using System.Text;
 
 using UnityEngine;
 
-namespace Code.System
+namespace Pylon.Code.System
 {
     public class GlobalVars
     {

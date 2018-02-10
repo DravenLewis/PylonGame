@@ -1,12 +1,22 @@
 # GIT IGNORE, DO NOT EDIT WITHOUT DRAVENS PERMISSION UNLESS YOU 
 # WANT THE PROJECT TO BE A MILLION GIGS BIG
 # dirs
+
+#internal project code stuff.. remove later..
+GridBasedAssetPlacing/GridBasedAssetPlacing/Temp/
+GridBasedAssetPlacing/GridBasedAssetPlacing/Library/ShaderCache/
+GridBasedAssetPlacing/GridBasedAssetPlacing/Library/MetaData/
+GridBasedAssetPlacing/Library/PlayerDataCache/
+GridBasedAssetPlacing/Library/MetaData/
+GridBasedAssetPlacing/Temp/
+
 PylonGame/PylonGame/Temp/
 PylonGame/PylonGame/Library/ShaderCache/
 PylonGame/PylonGame/Library/MetaData/
 PylonGame/Library/PlayerDataCache/
 PylonGame/Library/MetaData/
 PylonGame/Temp/
+
 #files
 *.cache
 *.tmp
