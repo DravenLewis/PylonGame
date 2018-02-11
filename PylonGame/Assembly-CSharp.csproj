@@ -56,10 +56,12 @@
      <Compile Include="Assets\Resources\Code\AssignedShader.cs" />
      <Compile Include="Assets\Resources\Code\BuildingBehavior.cs" />
      <Compile Include="Assets\Resources\Code\Destroyable.cs" />
+     <Compile Include="Assets\Resources\Code\DomeRotate.cs" />
      <Compile Include="Assets\Resources\Code\HoldItem.cs" />
      <Compile Include="Assets\Resources\Code\Mechanics\Building\BlockBuild.cs" />
      <Compile Include="Assets\Resources\Code\Mechanics\Building\BuildControl.cs" />
      <Compile Include="Assets\Resources\Code\Mechanics\PlayerControler.cs" />
+     <Compile Include="Assets\Resources\Code\PlayerFloatScript.cs" />
      <Compile Include="Assets\Resources\Code\System\GlobalBehavior.cs" />
      <Compile Include="Assets\Resources\Code\System\GlobalVars.cs" />
      <Compile Include="Assets\Resources\Code\TimerDestroy.cs" />
@@ -229,6 +231,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Draven Lewis/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{CD49A509-72AD-24C0-40CF-63F4BC0F5FDF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
